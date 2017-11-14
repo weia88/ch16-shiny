@@ -16,5 +16,5 @@ BuildScatter <- function(data, xVar, yVar, colorVar, title="Title", xLab = "X Ti
     labs(title = title, x = xLab, y = yLab)
   
   # Return plot
-  return(p)
+  return(scatter)
 }
